@@ -1,0 +1,4 @@
+numpy>=1.26,<3
+scikit-learn>=1.4,<2
+openai>=1.50,<3  # optional: only needed for --models openai:MODEL_ID
+pytest>=8,<10
