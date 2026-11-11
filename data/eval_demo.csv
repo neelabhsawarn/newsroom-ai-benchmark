@@ -1,0 +1,101 @@
+id,text,label,source
+SYN-EV-001,Ceasefire negotiations continue as envoys meet in capital,World,original synthetic example
+SYN-EV-002,New border agreement awaits parliamentary approval,World,original synthetic example
+SYN-EV-003,Relief groups prepare supplies for displaced residents,World,original synthetic example
+SYN-EV-004,Foreign ministry confirms talks with neighbouring leaders,World,original synthetic example
+SYN-EV-005,Election monitors call for transparent vote counting,World,original synthetic example
+SYN-EV-006,Regional peace conference focuses on refugee protection,World,original synthetic example
+SYN-EV-007,International tribunal schedules hearing on territory,World,original synthetic example
+SYN-EV-008,President faces legislative vote on foreign policy,World,original synthetic example
+SYN-EV-009,Diplomatic delegation arrives for security summit,World,original synthetic example
+SYN-EV-010,Government extends emergency measures after protests,World,original synthetic example
+SYN-EV-011,Humanitarian corridor proposed during ongoing talks,World,original synthetic example
+SYN-EV-012,Prime ministers endorse joint environmental pledge,World,original synthetic example
+SYN-EV-013,Opposition lawmakers request election inquiry,World,original synthetic example
+SYN-EV-014,United Nations delegates review peacekeeping mandate,World,original synthetic example
+SYN-EV-015,Embassy warns visitors of travel restrictions,World,original synthetic example
+SYN-EV-016,Cross-border transport pact receives ministerial support,World,original synthetic example
+SYN-EV-017,National referendum raises constitutional questions,World,original synthetic example
+SYN-EV-018,Regional bloc debates response to political crisis,World,original synthetic example
+SYN-EV-019,Negotiators discuss release of detained civilians,World,original synthetic example
+SYN-EV-020,International representatives announce mediation effort,World,original synthetic example
+SYN-EV-021,Parliament passes changes to citizenship rules,World,original synthetic example
+SYN-EV-022,Diplomatic dispute leads to ambassador recall,World,original synthetic example
+SYN-EV-023,Aid coalition appeals for protection of civilians,World,original synthetic example
+SYN-EV-024,Officials from five countries attend treaty meeting,World,original synthetic example
+SYN-EV-025,Government and opposition reopen dialogue after unrest,World,original synthetic example
+SYN-EV-026,Late goal sends local football club into final,Sports,original synthetic example
+SYN-EV-027,Top seed exits tennis tournament in dramatic match,Sports,original synthetic example
+SYN-EV-028,Cricket bowlers dominate opening day of test,Sports,original synthetic example
+SYN-EV-029,Runner sets personal best at indoor championships,Sports,original synthetic example
+SYN-EV-030,Basketball team signs veteran point guard,Sports,original synthetic example
+SYN-EV-031,World cup qualifying match ends in draw,Sports,original synthetic example
+SYN-EV-032,Goalkeeper stops shootout to clinch trophy,Sports,original synthetic example
+SYN-EV-033,Cycling leader loses time on final climb,Sports,original synthetic example
+SYN-EV-034,Swimming relay squad breaks meet record,Sports,original synthetic example
+SYN-EV-035,Rugby finalists name starting lineups,Sports,original synthetic example
+SYN-EV-036,Golf tournament concludes with sudden-death playoff,Sports,original synthetic example
+SYN-EV-037,Motorsport team upgrades car before grand prix,Sports,original synthetic example
+SYN-EV-038,Marathon organiser announces expanded race field,Sports,original synthetic example
+SYN-EV-039,Hockey captain returns for playoff series,Sports,original synthetic example
+SYN-EV-040,Athlete wins gold in high-jump final,Sports,original synthetic example
+SYN-EV-041,Stadium prepares for sold-out derby,Sports,original synthetic example
+SYN-EV-042,Boxing challenger trains ahead of title fight,Sports,original synthetic example
+SYN-EV-043,Tennis doubles partners secure semifinal place,Sports,original synthetic example
+SYN-EV-044,Baseball manager reviews season performance,Sports,original synthetic example
+SYN-EV-045,Volleyball underdogs defeat reigning champions,Sports,original synthetic example
+SYN-EV-046,Badminton tournament sees unexpected upset,Sports,original synthetic example
+SYN-EV-047,National coach selects squad for championship,Sports,original synthetic example
+SYN-EV-048,Sailing team reaches next stage of regatta,Sports,original synthetic example
+SYN-EV-049,Referee awards controversial penalty in extra time,Sports,original synthetic example
+SYN-EV-050,Formula driver takes pole position in qualifying,Sports,original synthetic example
+SYN-EV-051,Bank shares slide after lower profit forecast,Business,original synthetic example
+SYN-EV-052,Retailers expect slower consumer demand this winter,Business,original synthetic example
+SYN-EV-053,Merger talks continue between two insurance firms,Business,original synthetic example
+SYN-EV-054,Central bank keeps benchmark borrowing rate unchanged,Business,original synthetic example
+SYN-EV-055,Factory operator plans expansion after earnings growth,Business,original synthetic example
+SYN-EV-056,Startup secures financing for new warehouse,Business,original synthetic example
+SYN-EV-057,Energy producer cuts full-year revenue guidance,Business,original synthetic example
+SYN-EV-058,Investors respond to unexpected inflation figures,Business,original synthetic example
+SYN-EV-059,Restaurant group considers new franchise markets,Business,original synthetic example
+SYN-EV-060,Automotive supplier warns of higher material costs,Business,original synthetic example
+SYN-EV-061,Property sales fall as mortgage costs rise,Business,original synthetic example
+SYN-EV-062,Airline reports increased passenger revenue,Business,original synthetic example
+SYN-EV-063,Tech company announces quarterly shareholder results,Business,original synthetic example
+SYN-EV-064,Commodity traders react to supply constraints,Business,original synthetic example
+SYN-EV-065,Financial watchdog opens review of takeover,Business,original synthetic example
+SYN-EV-066,Supermarket operator announces cost-saving programme,Business,original synthetic example
+SYN-EV-067,Share prices climb following strong earnings,Business,original synthetic example
+SYN-EV-068,Investment firm sells stake in transport business,Business,original synthetic example
+SYN-EV-069,Small businesses report improved hiring confidence,Business,original synthetic example
+SYN-EV-070,Fashion retailer lowers annual sales outlook,Business,original synthetic example
+SYN-EV-071,Corporate bond yields rise during market volatility,Business,original synthetic example
+SYN-EV-072,Mobile network operator reduces capital expenditure,Business,original synthetic example
+SYN-EV-073,International lender revises economic growth forecast,Business,original synthetic example
+SYN-EV-074,Hotel group plans acquisition of regional chain,Business,original synthetic example
+SYN-EV-075,Shipping business sets new pricing strategy,Business,original synthetic example
+SYN-EV-076,Engineers unveil chip with improved energy efficiency,Sci/Tech,original synthetic example
+SYN-EV-077,Researchers demonstrate new gene-editing technique,Sci/Tech,original synthetic example
+SYN-EV-078,AI model helps scientists identify galaxy patterns,Sci/Tech,original synthetic example
+SYN-EV-079,Cybersecurity researchers flag flaw in login software,Sci/Tech,original synthetic example
+SYN-EV-080,Space mission prepares instruments for asteroid survey,Sci/Tech,original synthetic example
+SYN-EV-081,Scientists investigate rapidly melting ice shelves,Sci/Tech,original synthetic example
+SYN-EV-082,Updated operating system introduces privacy controls,Sci/Tech,original synthetic example
+SYN-EV-083,Lab tests show progress in advanced battery chemistry,Sci/Tech,original synthetic example
+SYN-EV-084,New telescope image reveals unusual star formation,Sci/Tech,original synthetic example
+SYN-EV-085,Biomedical team publishes early-stage drug findings,Sci/Tech,original synthetic example
+SYN-EV-086,Developers release patch for database vulnerability,Sci/Tech,original synthetic example
+SYN-EV-087,Robot prototype navigates complex factory environment,Sci/Tech,original synthetic example
+SYN-EV-088,Physicists report results from quantum experiment,Sci/Tech,original synthetic example
+SYN-EV-089,Ocean sensors collect data on deep-water currents,Sci/Tech,original synthetic example
+SYN-EV-090,Computer vision tools assist habitat researchers,Sci/Tech,original synthetic example
+SYN-EV-091,Scientists explore microscopic material for solar panels,Sci/Tech,original synthetic example
+SYN-EV-092,Cloud software team introduces new programming interface,Sci/Tech,original synthetic example
+SYN-EV-093,Genomics researchers map genetic variation in plants,Sci/Tech,original synthetic example
+SYN-EV-094,Satellite imagery improves monitoring of forest loss,Sci/Tech,original synthetic example
+SYN-EV-095,Research group simulates extreme rainfall patterns,Sci/Tech,original synthetic example
+SYN-EV-096,New wearable device measures environmental exposure,Sci/Tech,original synthetic example
+SYN-EV-097,Astronomers discover candidate distant planet,Sci/Tech,original synthetic example
+SYN-EV-098,Engineers trial next-generation wireless protocol,Sci/Tech,original synthetic example
+SYN-EV-099,Laboratory creates faster image-processing algorithm,Sci/Tech,original synthetic example
+SYN-EV-100,Science team explores novel recycling technology,Sci/Tech,original synthetic example
