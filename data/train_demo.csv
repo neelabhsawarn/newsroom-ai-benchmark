@@ -1,0 +1,101 @@
+id,text,label,source
+SYN-TR-001,Leaders discuss ceasefire at regional peace summit,World,original synthetic example
+SYN-TR-002,Parliament debates new migration policy,World,original synthetic example
+SYN-TR-003,Foreign ministers meet over border tensions,World,original synthetic example
+SYN-TR-004,Diplomats negotiate humanitarian aid corridor,World,original synthetic example
+SYN-TR-005,President announces cabinet reshuffle,World,original synthetic example
+SYN-TR-006,International observers monitor national election,World,original synthetic example
+SYN-TR-007,Peace talks resume after security concerns,World,original synthetic example
+SYN-TR-008,Embassy issues travel advice amid unrest,World,original synthetic example
+SYN-TR-009,Neighbouring states sign maritime agreement,World,original synthetic example
+SYN-TR-010,United Nations committee debates sanctions,World,original synthetic example
+SYN-TR-011,Government proposes constitutional reform,World,original synthetic example
+SYN-TR-012,Civil groups call for independent election review,World,original synthetic example
+SYN-TR-013,Aid agencies warn of displaced families,World,original synthetic example
+SYN-TR-014,Trade envoys meet amid diplomatic dispute,World,original synthetic example
+SYN-TR-015,Prime minister visits neighbouring country,World,original synthetic example
+SYN-TR-016,International court hears territorial dispute,World,original synthetic example
+SYN-TR-017,Regional alliance announces joint declaration,World,original synthetic example
+SYN-TR-018,Foreign policy debate dominates assembly,World,original synthetic example
+SYN-TR-019,Protesters gather outside parliament building,World,original synthetic example
+SYN-TR-020,Officials convene emergency security meeting,World,original synthetic example
+SYN-TR-021,Delegates negotiate cross-border agreement,World,original synthetic example
+SYN-TR-022,Humanitarian organisations appeal for relief,World,original synthetic example
+SYN-TR-023,Referendum campaign begins nationwide,World,original synthetic example
+SYN-TR-024,World leaders discuss climate treaty,World,original synthetic example
+SYN-TR-025,New ambassador appointed after talks,World,original synthetic example
+SYN-TR-026,Home team wins league match in extra time,Sports,original synthetic example
+SYN-TR-027,Striker scores twice in season opener,Sports,original synthetic example
+SYN-TR-028,Tennis champion advances to quarterfinal,Sports,original synthetic example
+SYN-TR-029,Cricket captain praises bowling performance,Sports,original synthetic example
+SYN-TR-030,Rugby club signs new head coach,Sports,original synthetic example
+SYN-TR-031,Cyclist takes lead in mountain stage,Sports,original synthetic example
+SYN-TR-032,Basketball finals draw record crowd,Sports,original synthetic example
+SYN-TR-033,Swimmer breaks national meet record,Sports,original synthetic example
+SYN-TR-034,Football referee reviews disputed penalty,Sports,original synthetic example
+SYN-TR-035,Marathon runner wins city race,Sports,original synthetic example
+SYN-TR-036,Baseball pitcher throws complete game,Sports,original synthetic example
+SYN-TR-037,Olympic hopeful qualifies for final,Sports,original synthetic example
+SYN-TR-038,Golf leader misses decisive putt,Sports,original synthetic example
+SYN-TR-039,League fixtures rescheduled after rain,Sports,original synthetic example
+SYN-TR-040,Volleyball team extends winning streak,Sports,original synthetic example
+SYN-TR-041,Badminton pair claim doubles title,Sports,original synthetic example
+SYN-TR-042,Formula racing driver tops practice session,Sports,original synthetic example
+SYN-TR-043,Boxer prepares for title defence,Sports,original synthetic example
+SYN-TR-044,Hockey side secures playoff berth,Sports,original synthetic example
+SYN-TR-045,Sailing crew completes ocean race,Sports,original synthetic example
+SYN-TR-046,Athletics federation updates competition rules,Sports,original synthetic example
+SYN-TR-047,National squad names tournament captain,Sports,original synthetic example
+SYN-TR-048,Sports fans celebrate derby victory,Sports,original synthetic example
+SYN-TR-049,Wrestler returns after injury,Sports,original synthetic example
+SYN-TR-050,Club goalkeeper saves deciding penalty,Sports,original synthetic example
+SYN-TR-051,Retail chain reports higher quarterly sales,Business,original synthetic example
+SYN-TR-052,Central bank signals change to interest rates,Business,original synthetic example
+SYN-TR-053,Airline forecasts improved annual earnings,Business,original synthetic example
+SYN-TR-054,Manufacturing company opens new factory,Business,original synthetic example
+SYN-TR-055,Shareholders approve proposed acquisition,Business,original synthetic example
+SYN-TR-056,Bank announces revised lending targets,Business,original synthetic example
+SYN-TR-057,Housing market shows slower price growth,Business,original synthetic example
+SYN-TR-058,Consumer spending rises ahead of holiday,Business,original synthetic example
+SYN-TR-059,Energy company outlines investment budget,Business,original synthetic example
+SYN-TR-060,Startup raises new funding round,Business,original synthetic example
+SYN-TR-061,Inflation data puts pressure on retailers,Business,original synthetic example
+SYN-TR-062,Automaker reports weaker profit margin,Business,original synthetic example
+SYN-TR-063,Financial regulator reviews merger proposal,Business,original synthetic example
+SYN-TR-064,Currency markets react to policy statement,Business,original synthetic example
+SYN-TR-065,Supermarket group expands delivery operations,Business,original synthetic example
+SYN-TR-066,Company shares rise after earnings report,Business,original synthetic example
+SYN-TR-067,Logistics firm announces cost reduction plan,Business,original synthetic example
+SYN-TR-068,Business confidence survey records rebound,Business,original synthetic example
+SYN-TR-069,Commodity prices move after supply warning,Business,original synthetic example
+SYN-TR-070,Property developer secures project financing,Business,original synthetic example
+SYN-TR-071,Investment fund increases portfolio exposure,Business,original synthetic example
+SYN-TR-072,Online retailer revises revenue outlook,Business,original synthetic example
+SYN-TR-073,Telecom operator announces shareholder dividend,Business,original synthetic example
+SYN-TR-074,Insurer reports increase in premiums,Business,original synthetic example
+SYN-TR-075,Franchise owners negotiate supplier contracts,Business,original synthetic example
+SYN-TR-076,Scientists publish results from new telescope,Sci/Tech,original synthetic example
+SYN-TR-077,Researchers test experimental battery material,Sci/Tech,original synthetic example
+SYN-TR-078,Software update fixes encryption flaw,Sci/Tech,original synthetic example
+SYN-TR-079,Space agency prepares satellite launch,Sci/Tech,original synthetic example
+SYN-TR-080,Lab team discovers new protein structure,Sci/Tech,original synthetic example
+SYN-TR-081,Computer scientists improve image recognition,Sci/Tech,original synthetic example
+SYN-TR-082,Astronomers observe distant star system,Sci/Tech,original synthetic example
+SYN-TR-083,Engineers develop prototype water sensor,Sci/Tech,original synthetic example
+SYN-TR-084,New smartphone chip targets lower power use,Sci/Tech,original synthetic example
+SYN-TR-085,University studies quantum computing method,Sci/Tech,original synthetic example
+SYN-TR-086,Cybersecurity team reports phishing campaign,Sci/Tech,original synthetic example
+SYN-TR-087,Robotics laboratory demonstrates warehouse drone,Sci/Tech,original synthetic example
+SYN-TR-088,Researchers sequence previously unknown genome,Sci/Tech,original synthetic example
+SYN-TR-089,AI system analyses medical imaging data,Sci/Tech,original synthetic example
+SYN-TR-090,Technology firm releases developer toolkit,Sci/Tech,original synthetic example
+SYN-TR-091,Ocean scientists deploy automated monitoring buoy,Sci/Tech,original synthetic example
+SYN-TR-092,Astronauts test equipment on orbital station,Sci/Tech,original synthetic example
+SYN-TR-093,New processor architecture promises faster memory,Sci/Tech,original synthetic example
+SYN-TR-094,Researchers model extreme weather patterns,Sci/Tech,original synthetic example
+SYN-TR-095,Open-source project releases security patch,Sci/Tech,original synthetic example
+SYN-TR-096,Scientists investigate material superconductivity,Sci/Tech,original synthetic example
+SYN-TR-097,Climate sensors detect changing ocean currents,Sci/Tech,original synthetic example
+SYN-TR-098,Computer vision model tracks wildlife movement,Sci/Tech,original synthetic example
+SYN-TR-099,Laboratory builds miniature solar cell,Sci/Tech,original synthetic example
+SYN-TR-100,Medical researchers publish vaccine trial data,Sci/Tech,original synthetic example
