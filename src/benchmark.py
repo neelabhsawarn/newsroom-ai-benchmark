@@ -168,7 +168,7 @@ def build_report(metrics, attempts, output, eval_path, train_path):
            '', '| Approach | Accuracy | Macro F1 | Coverage | Consistency | Median latency | p95 latency | API cost |',
            '|---|---:|---:|---:|---:|---:|---:|---|']
     for m in metrics:
-        cost=f"\\u0024{m['api_cost_usd']:.5f}" if isinstance(m['api_cost_usd'],(float,int)) else 'unknown'
+        cost=f"${m['api_cost_usd']:.5f}" if isinstance(m['api_cost_usd'],(float,int)) else 'unknown'
         lines.append(f"| {m['model']} | {m['accuracy_all_attempts']:.1%} | {m['macro_f1']:.3f} | {m['coverage']:.1%} | {m['strict_repeat_consistency']:.1%} | {m['median_latency_ms']:.2f} ms | {m['p95_latency_ms']:.2f} ms | {cost} |")
     lines.extend(['','## Observed failure examples',''])
     for m in metrics:
