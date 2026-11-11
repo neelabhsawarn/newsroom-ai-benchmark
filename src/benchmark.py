@@ -104,7 +104,7 @@ def evaluate(name, train, evaluation, runs, rates):
             err=''
             try:
                 pred,tokens_in,tokens_out=predict(name,model,row['text'])
-                pred=pred.strip().strip('"\'\x60 ')
+                pred=pred.strip().strip('"\'` ')
                 if pred not in LABELS:
                     err=f'Invalid category output: {pred[:100]}'
                     pred=''
@@ -157,7 +157,7 @@ def write_csv(path,rows,fields=None):
 def build_report(metrics, attempts, output, eval_path, train_path):
     is_demo='demo' in Path(eval_path).name
     lines=['# Newsroom AI tagging benchmark — run report','',
-           f'- Evaluation: {`}{Path(eval_path).name}{`}; training: {`}{Path(train_path).name}{`}',
+           f'- Evaluation: `{Path(eval_path).name}`; training: `{Path(train_path).name}`',
            f'- Data provenance: **{"original synthetic demo examples" if is_demo else "imported dataset; check provenance and terms before sharing"}**',
            '- Labels: World / Sports / Business / Sci/Tech',
            '- Same test examples used for each approach; ML training set is separate from evaluation set.',
@@ -168,7 +168,7 @@ def build_report(metrics, attempts, output, eval_path, train_path):
            '', '| Approach | Accuracy | Macro F1 | Coverage | Consistency | Median latency | p95 latency | API cost |',
            '|---|---:|---:|---:|---:|---:|---:|---|']
     for m in metrics:
-        cost=f"$"+"{m['api_cost_usd']:.5f}" if isinstance(m['api_cost_usd'],(float,int)) else 'unknown'
+        cost=f"\\u0024{m['api_cost_usd']:.5f}" if isinstance(m['api_cost_usd'],(float,int)) else 'unknown'
         lines.append(f"| {m['model']} | {m['accuracy_all_attempts']:.1%} | {m['macro_f1']:.3f} | {m['coverage']:.1%} | {m['strict_repeat_consistency']:.1%} | {m['median_latency_ms']:.2f} ms | {m['p95_latency_ms']:.2f} ms | {cost} |")
     lines.extend(['','## Observed failure examples',''])
     for m in metrics:
@@ -176,14 +176,14 @@ def build_report(metrics, attempts, output, eval_path, train_path):
         lines.append(f"### {m['model']}")
         if problems:
             for p in problems[:5]:
-                lines.append(f"- {`}{p['id']}{`}: true **{p['actual']}**, predicted **{p['predicted'] or 'NO OUTPUT'}** — {p['text']}."+(f" Error: {p['error']}" if p['error'] else ''))
+                lines.append(f"- `{p['id']}`: true **{p['actual']}**, predicted **{p['predicted'] or 'NO OUTPUT'}** — {p['text']}."+(f" Error: {p['error']}" if p['error'] else ''))
         else:lines.append('- None observed on first run.')
     lines.extend(['','## Business interpretation','',
       'Accuracy alone is insufficient for publication workflows: measure class-specific errors, invalid output coverage, and human escalation needs. Use the confusion matrix and prediction CSV to inspect mistakes.',
       'For a production pilot, define thresholds per high-risk class, adjudicate ambiguous labels, re-run on recent editorial data, and monitor drift.',
       'A result from a tiny or synthetic sample is **not** a claim of production accuracy, model superiority, or human annotation agreement.',
       '', '## Human review', '',
-      'Give {` }data/human_review_blank.csv{` } to a second annotator. They should fill {` }human_label{` } without seeing the original label where practical. Run {` }python src/human_agreement.py{` } after labels are provided. Agreement has not been measured unless a populated report exists.',
+      'Give `data/human_review_blank.csv` to a second annotator. They should fill `human_label` without seeing the original label where practical. Run `python src/human_agreement.py` after labels are provided. Agreement has not been measured unless a populated report exists.',
       ''])
     (Path(output)/'run_report.md').write_text('\n'.join(lines),encoding='utf-8')
 
