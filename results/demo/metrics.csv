@@ -1,4 +1,4 @@
 model,items,repeats,attempts,accuracy_all_attempts,macro_precision,macro_recall,macro_f1,coverage,failure_count,strict_repeat_consistency,median_latency_ms,p95_latency_ms,api_cost_usd,cost_notes
-keyword,100,3,300,0.86,0.8782,0.86,0.868,1.0,0,1.0,0.0,0.0,0.0,No external API fees; compute not priced
-nb,100,3,300,0.89,0.8917,0.89,0.8887,1.0,0,1.0,0.0,0.0,0.0,No external API fees; compute not priced
-logreg,100,3,300,0.89,0.8917,0.89,0.8887,1.0,0,1.0,0.0,0.0,0.0,No external API fees; compute not priced
+keyword,100,3,300,0.86,0.9103,0.86,0.868,1.0,0,1.0,0.004,0.005,0.0,No external API fees; compute not priced
+nb,100,3,300,0.89,0.892,0.89,0.8886,1.0,0,1.0,0.216,0.349,0.0,No external API fees; compute not priced
+logreg,100,3,300,0.89,0.892,0.89,0.8886,1.0,0,1.0,0.223,0.364,0.0,No external API fees; compute not priced
