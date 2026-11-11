@@ -1,0 +1,13 @@
+# AI Product Analyst Portfolio — Newsroom Content Tagging Benchmark
+
+**Product hypothesis.** Automated topic tagging could reduce manual content-routing effort, but only if accuracy, latency, cost and failure-handling justify human oversight. The experiment asks: *Which lightweight approach is suitable for the next pilot?*
+
+**Experiment design.** Defined four content classes (World, Sports, Business, Science/Technology); built a scoring harness for three approaches (keyword rules, TF–IDF + Naive Bayes, TF–IDF + logistic regression); measured classification accuracy, macro precision/recall/F1, output coverage, repeat consistency and median/p95 latency; and produced row-level predictions, confusion counts and error examples. Also implemented an optional OpenAI LLM adapter, token-cost accounting and a blinded reviewer sheet with a Cohen's kappa calculator.
+
+**What was completed and tested.** Ran all three local approaches across **100 separately labelled, synthetic evaluation headlines**, three repeated passes (300 predictions per approach). A separate 100-item synthetic training dataset was used for ML. Results: **keyword rules 86% accuracy (F1 0.868), Naive Bayes 89% (F1 0.889), logistic regression 89% (F1 0.889)**. All approaches returned valid outputs for every run; deterministic repeat consistency was 100%. Tests passed. These results are **illustrative**, not generalisable to real editorial data, and compute/hosting costs were not measured.
+
+**Observed failure modes.** Topic-vocabulary gaps and headline ambiguity create routing mistakes: some sports examples are tagged World or Sci/Tech; financial-sector headlines can be mistaken for World. Average accuracy alone conceals category-specific errors. An editorial pilot should add human escalation for uncertain or high-risk items and agree acceptance thresholds with stakeholders.
+
+**Next stage before making a production recommendation.** Run the included reproducible downloader and benchmark on an **80-item independent AG News test sample** (20 examples per class); compare two accessible LLMs using the same examples; estimate real API token costs and network latency; obtain independent human review on a blinded 24-item subset; analyse disagreements; and recommend an approach based on quality, cost, reliability and editorial risk. The AG News workflow is implemented but **was not run here due to network restrictions**. LLM evaluation and human agreement have **not** been completed or claimed.
+
+**Business relevance.** Demonstrates defining an AI product problem, translating it into measurable experiments, interpreting model trade-offs and setting evidence-based go/no-go criteria rather than selecting a model by reputation.
